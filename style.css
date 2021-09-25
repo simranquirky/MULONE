@@ -1,0 +1,207 @@
+body {
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to left, lightblue 90%, grey 100%);
+    background-size: cover;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+
+}
+
+.header_search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: grey;
+    display: block;
+    transition: 0.3s;
+    border-top: 1px solid white;
+}
+
+.sidenav a:hover {
+    background: linear-gradient(to right, #cc0066 0%, #99ccff 100%);
+    color: black;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+body {
+    letter-spacing: 1.2px;
+    background: url("images/ink.jpg");
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 60%;
+    border-radius: 2px;
+    background-color: white;
+    border: 2px solid white;
+    box-shadow: 2px 10px 40px rgba(22, 20, 19, 0.4);
+    opacity: 1.0;
+    padding: 20 20;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 50px;
+    margin-left: 300px;
+    float: left;
+    color: grey;
+}
+
+
+
+h3 {
+    color: grey;
+    text-shadow: 1px 1px 1px black;
+}
+
+input[type=text],
+select {
+    width: 70%;
+    padding: 12px 18px;
+    margin: 8px 0;
+    box-sizing: border-box;
+   border: none;
+    box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #ffffff73;
+    border-radius: 8px;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 2px solid black;
+}
+
+input[type=submit] {
+    width: 45%;
+    background: linear-gradient(to right, #cc0066 0%, #99ccff 100%);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 10px;
+    margin: 8px 8px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+input[type=submit]:hover {
+    background: linear-gradient(to bottom, #99ccff 60%, grey 120%);
+}
+
+textarea {
+    width: 70%;
+    height: 20%;
+}
+
+h1 {
+    text-shadow: 5px 5px 5px rgba(22, 20, 19, 0.4);
+}
+
+.container1 {
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+    top: 0;
+    z-index: 100;
+    margin: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.container1>input {
+    width: 650px;
+    height: 40px;
+    margin-left: 60px;
+    margin-top: 60px;
+    padding-top: 10px;
+    ;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+
+.container1>img {
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    align-content: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.header {
+    height: 80px;
+    width: 104%;
+    display: flex;
+    align-items: center;
+     background: linear-gradient(to bottom, lightblue 90%, grey 100%);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    margin-left: -25px;
+    margin-top: -25px;
+    margin-right: 0px;
+    padding: 0;
+}
+
+#myheader {
+    padding-top: 20px;
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.header_search>img {
+    margin-left: 30px;
+    height: 2%;
+    width: 5%;
+}

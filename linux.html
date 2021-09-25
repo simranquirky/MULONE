@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="main">
+
+        <div class="header">
+            <div class="header_search">
+                <span style="font-size:30px;cursor:pointer;color: white;margin-left: 10px;" onclick="openNav()">&#9776;</span>
+                <img src="images/red-hat.png">
+                <h4> Linux Server</h4>
+
+                <form id="labnol" method="get" action="http://www.labnol.org">
+                    <div class="container1">
+                        <input type="text" name="task" id="transcript" placeholder="Say Something" />
+                        <img onclick="startDictation()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuNt4bosW8UsVUSfw8DVb-fv8tr4KFSzsYrw&usqp=CAU" /></div>
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <center>
+            <br>
+            <img src="images/redhat.png" width="200" height="140">
+            <br>
+            <h1>Enter Linux commands</h1>
+            <br>
+            <form action="" method="post">
+                <input type="text" name="command" placeholder="Enter command...">
+                <br><br><br>
+                <input type="submit" value="Display Output" />
+            </form>
+        </center>
+    </div>
+
+    <script src="list.js">
+    </script>
+</body>
+
+</html>

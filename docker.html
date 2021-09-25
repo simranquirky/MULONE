@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!-- NAVIGATION BAR -->
+
+
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#setup">SETUP DOCKER</a>
+        <a href="#es">SETUP DOCKER</a>
+        <a href="#status">STATUS REPORT</a>
+        <a href="#image">DOCKER IMAGES</a>
+        <a href="#container">CONTAINERS</a>
+        <a href="#runcon">RUNNING CONTAINERS</a>
+        <a href="#pull">PULL IMAGE</a>
+        <a href="#launch">LAUNCH CONTAINER</a>
+        <a href="#create">CREATE CONTAINER IMAGE</a>
+        <a href="#start">START CONTAINER</a>
+        <a href="#stop">STOP CONTAINER</a>
+        <a href="#ri">REMOVE IMAGE</a>
+        <a href="#rc">REMOVE CONTAINER</a>
+        <!-- add new option in the navigation bar here -->
+    </div>
+    <div id="main">
+
+
+        <!-- HEADER -->
+
+
+        <div class="header">
+            <div class="header_search">
+                <span style="font-size:30px;cursor:pointer;color: white;margin-left: 10px;" onclick="openNav()">&#9776;</span>
+                <img src="images/docker.jpg">
+                <h4> Docker Services</h4>
+
+                <form id="labnol" method="get" action="http://www.labnol.org">
+                    <div class="container1">
+                        <input type="text" name="task" id="transcript" placeholder="Say Something" />
+                        <img onclick="startDictation()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuNt4bosW8UsVUSfw8DVb-fv8tr4KFSzsYrw&usqp=CAU" /></div>
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- CONTAINER START-->
+
+    <div class="container" id="setup">
+        <center>
+            <h3>Setup Docker</h3>
+            <form action="" method="post">
+                <input type="hidden" name="choice" value="1">
+                <input type="submit" value="Start" />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+    <div class="container" id="es">
+        <center>
+            <h3>Enable Services</h3>
+            <form action="" method="post">
+                <input type="hidden" name="choice" value="2">
+                <input type="submit" value="Enable" />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+    <div class="container" id="status">
+        <center>
+            <h3> Status Report</h3>
+            <form action="" method="post">
+                <input type="hidden" name="choice" value="3">
+                <input type="submit" value="VIEW" />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+    <div class="container" id="image">
+        <center>
+            <h3> Docker Images</h3>
+            <form action="" method="post">
+                <input type="hidden" name="choice" value="4">
+                <input type="submit" value="VIEW" />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+    <div class="container" id="container">
+        <center>
+            <h3> Containers</h3>
+            <form action="" method="post">
+                <input type="hidden" name="choice" value="5">
+                <input type="submit" value="VIEW" />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+    <div class="container" id="runcon">
+        <center>
+            <h3> Running Containers</h3>
+            <form action="" method="post">
+                <input type="hidden" name="choice" value="6">
+                <input type="submit" value="VIEW" />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+    <div class="container" id="pull">
+        <center>
+            <h3>Pull Image </h3>
+            <form action="" method="post">
+                <input type="text" name="pull_image" placeholder="Enter the Image name">
+                <input type="text" name="pull_tag" placeholder="Enter the Tag">
+                <input type="hidden" name="choice" value="7">
+                <input type="submit" value="Pull" />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+    <div class="container" id="launch">
+        <center>
+            <h3>Launch a new Container</h3>
+            <form action="" method="post">
+                <input type="hidden" name="choice" value="8">
+                <input type="text" name="launch_name" placeholder="Give name to new Container">
+                <input type="text" name="launch_image" placeholder="Enter the Image name">
+                <input type="text" name="launch_tag" placeholder="Enter the Tag">
+                <input type="submit" value="Launch" />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+    <div class="container" id="create">
+        <center>
+            <h3>Create Container Image</h3>
+            <form action="" method="post">
+                <input type="hidden" name="choice" value="9">
+                <input type="text" name="create_img_name" placeholder="Enter Container name to make Image">
+                <input type="text" name="create_img_image" placeholder="Give name to the Image">
+                <input type="text" name="create_img_tag" placeholder="Enter the Tag">
+                <input type="submit" value="Create " />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+    <div class="container" id="start">
+        <center>
+            <h3>Start Container</h3>
+            <form action="" method="post">
+                <input type="text" name="start_name" placeholder="Enter the Container name">
+                <input type="hidden" name="choice" value="10">
+                <input type="submit" value="Start" />
+            </form>
+        </center>
+    </div>
+
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+
+    <div class="container" id="stop">
+        <center>
+            <h3>Stop Container</h3>
+            <form action="" method="post">
+                <input type="text" name="stop_name" placeholder="Enter the Container name">
+                <input type="hidden" name="choice" value="11">
+                <input type="submit" value="Stop" />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+    <div class="container" id="ri">
+        <center>
+            <h3>Remove Image(s)</h3>
+            <form action="" method="post">
+                <input type="hidden" name="choice" value="12">
+                <input type="text" name="remove_image" placeholder="Enter name of the Image">
+                <input type="text" name="remove_tag" placeholder="Enter the Tag">
+                <input type="submit" value="Remove " />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+
+    <div class="container" id="rc">
+        <center>
+            <h3>Remove Container(s)</h3>
+            <form action="" method="post">
+                <input type="hidden" name="choice" value="13">
+                <input type="text" name="remove_name" placeholder="Enter name of the Container">
+                <input type="submit" value="Remove " />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+    <!-- Add new container here -->
+
+
+    <!--CONTAINER END-->
+
+    <script src="list.js">
+    </script>
+
+</body>
+
+</html>

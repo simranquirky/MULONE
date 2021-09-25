@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- NAVIGATION BAR -->
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#a">DISPLAY AVAILABLE STORAGES</a>
+        <a href="#b">PHYSICAL VOLUMES INFORMATION</a>
+
+        <a href="#c">VOLUME GROUP INFORMATION</a>
+        <a href="#d">LOGICAL VOLUMES INFORMATION</a>
+        <a href="#e">CREATE PV</a>
+        <a href="#f">CRAETE VG</a>
+        <a href="#g">CREATE LV</a>
+        <a href="#h">EXTEND LV</a>
+        <a href="#i">REDUCE LV</a>
+        <a href="#j">EXTEND VG</a>
+        <a href="#k">REDUCE VG</a>
+        <a href="#l">REMOVE LV</a>
+        <a href="#m">REMOVE VG</a>
+        <a href="#n">REMOVE PV</a>
+        <a href="#o">CREATE FILE IN LV</a>
+        <!-- add new option in the navigation bar here -->
+    </div>
+
+
+    <div id="main">
+        <!-- HEADER -->
+
+        <div class="header">
+            <div class="header_search">
+                <span style="font-size:30px;cursor:pointer;color: white;margin-left: 10px;" onclick="openNav()">&#9776;</span>
+                <img src="images/lvm.jpg">
+                <h4>LogicalVolume Management</h4>
+
+                <form id="labnol" method="get" action="http://www.labnol.org">
+                    <div class="container1">
+                        <input type="text" name="task" id="transcript" placeholder="Say Something" />
+                        <img onclick="startDictation()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuNt4bosW8UsVUSfw8DVb-fv8tr4KFSzsYrw&usqp=CAU" /></div>
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- CONTAINER START-->
+    <div class="container" id="a">
+        <center>
+            <h3>Display all available storage devices attached</h3>
+            <form action="" method="post">
+                <input type="hidden" name="choice" value="1">
+                <input type="submit" value="Display" />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+
+
+    <div class="container" id="b">
+        <center>
+            <h3>Display information about Physical Volumes(PVs)</h3>
+            <form action="" method="post">
+                <input type="hidden" name="choice" value="2">
+                <input type="text" name="show_pv" placeholder="Choose one particular PV (default all)">
+                <input type="submit" value="PV details" />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+
+
+    <div class="container" id="c">
+        <center>
+            <h3>Display information about Volume Groups(VGs)</h3>
+            <form action="" method="post">
+                <input type="hidden" name="choice" value="3">
+                <input type="text" name="show_vg" placeholder="Choose one particular VG (default all)">
+                <input type="submit" value="VG details" />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+
+    <div class="container" id="d">
+        <center>
+            <h3>Display information about Logical Volumes(LVs)</h3>
+            <form action="" method="post">
+                <input type="hidden" name="choice" value="4">
+                <input type="text" name="show_lv" placeholder="Choose path to particular LV (default all)">
+                <input type="submit" value="LV details" />
+            </form>
+        </center>
+    </div>
+
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+
+    <div class="container" id="e">
+        <center>
+            <h3>Create Physical Volume(PV)</h3>
+            <form action="" method="post">
+                <input type="hidden" name="choice" value="5">
+                <input type="text" name="create_pv" placeholder="Storage device name to create PV">
+                <input type="submit" value="Create PV" />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+
+    <div class="container" id="f">
+        <center>
+            <h3>Create Volume Group(VG)</h3>
+            <form action="" method="post">
+                <input type="hidden" name="choice" value="6">
+                <input type="text" name="create_vg" placeholder="Give name to new VG">
+                <input type="text" name="vg_pv1" placeholder="Enter the name of PV1">
+                <input type="text" name="vg_pv2" placeholder="Enter the name of PV2">
+                <input type="submit" value="Create VG" />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+
+    <div class="container" id="g">
+        <center>
+            <h3>Create Logical Volume(LV)</h3>
+            <form action="" method="post">
+                <input type="hidden" name="choice" value="7">
+                <input type="text" name="create_lv" placeholder="Give name to new LV">
+                <input type="text" name="create_lv_size" placeholder="Enter the size of LV">
+                <input type="text" name="create_lv_vg" placeholder="Enter name of the VG to create LV">
+                <input type="text" name="create_lv_mount" placeholder="Enter the path to mount point of the LV">
+                <input type="submit" value="Create LV" />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+
+    <div class="container" id="h">
+        <center>
+            <h3>Extend Logical Volume(LV)</h3>
+            <form action="" method="post">
+                <input type="hidden" name="choice" value="8">
+                <input type="text" name="extend_lv" placeholder="Enter the name of LV you want to extend">
+                <input type="text" name="extend_lv_vg" placeholder="Enter name of the VG in which  LV created">
+                <input type="text" name="extend_lv_size" placeholder="Enter the final size of LV">
+                <input type="submit" value="Extend LV" />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+
+
+    <div class="container" id="i">
+        <center>
+            <h3>Reduce Logical Volume(LV)</h3>
+            <form action="" method="post">
+                <input type="hidden" name="choice" value="9">
+                <input type="text" name="reduce_lv" placeholder="Enter LV name to reduce">
+                <input type="text" name="reduce_lv_vg" placeholder="Enter VG name of the LV created">
+                <input type="text" name="reduce_lv_size" placeholder="Enter the final size of LV">
+                <input type="text" name="reduce_lv_mount" placeholder="Enter the path to mount point of the LV">
+                <input type="submit" value="Reduce LV" />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+
+    <div class="container" id="j">
+        <center>
+            <h3>Extend Volume Group(VG)</h3>
+            <form action="" method="post">
+                <input type="hidden" name="choice" value="10">
+                <input type="text" name="extend_vg" placeholder="Enter name of the VG you want to extend">
+                <input type="text" name="extend_vg_pv" placeholder="Enter name of the PV to add to VG">
+                <input type="submit" value="Extend VG" />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+
+    <div class="container" id="k">
+        <center>
+            <h3>Reduce Volume Group(VG)</h3>
+            <form action="" method="post">
+                <input type="hidden" name="choice" value="11">
+                <input type="text" name="reduce_vg" placeholder="Enter name of the VG to reduce">
+                <input type="text" name="reduce_vg_pv" placeholder="Enter name of the PV to remove from VG">
+                <input type="submit" value="Reduce VG" />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+
+    <div class="container" id="l">
+        <center>
+            <h3>Remove Logical Volume(LV)</h3>
+            <form action="" method="post">
+                <input type="text" name="lv_remove_path" placeholder="Enter path to LV to remove">
+                <input type="hidden" name="choice" value="12">
+                <input type="submit" value="Remove LV" />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+
+    <div class="container" id="m">
+        <center>
+            <h3>Remove Volume Group(VG)</h3>
+            <form action="" method="post">
+                <input type="text" name="vg_remove" placeholder="Enter name of VG you want to remove">
+                <input type="hidden" name="choice" value="13">
+                <input type="submit" value="Remove VG" />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+
+    <div class="container" id="n">
+        <center>
+            <h3>Remove Physical Volume(PV)</h3>
+            <form action="" method="post">
+                <input type="text" name="pv_remove" placeholder="Enter path to PV you want to remove">
+                <input type="hidden" name="choice" value="14">
+                <input type="submit" value="Remove PV" />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+
+    <div class="container" id="o">
+        <center>
+            <h3>Create file in Logical Volume(LV)</h3>
+            <form action="" method="post">
+                <input type="text" name="create_file" placeholder="Enter the filename with extension">
+                <textarea name="file_text" placeholder="Enter text..."> </textarea>
+                <input type="text" name="file_folder" placeholder="Enter the path to folder">
+                <input type="hidden" name="choice" value="15">
+                <input type="submit" value="Create File" />
+            </form>
+        </center>
+    </div>
+    <!--CONTAINER END-->
+
+
+
+
+    <!-- CONTAINER START-->
+
+    <!-- Add new container here -->
+
+
+    <!--CONTAINER END-->
+
+    <script src="list.js">
+    </script>
+</body>
+
+</html>

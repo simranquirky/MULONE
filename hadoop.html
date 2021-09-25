@@ -1,0 +1,211 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!-- NAVIGATION BAR -->
+
+
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#cs">CONFIGURE SYSTEM</a>
+        <a href="#cr">CLUSTER REPORT</a>
+        <a href="#crw">CLUSTER REPORT WEBUI VIEW</a>
+        <a href="#sf">SEE FILESYSTEM</a>
+        <a href="#rf">READ A FILE</a>
+        <a href="#cf">CREATE A FOLDER</a>
+        <a href="#caf">CREATE A FILE</a>
+        <a href="#caf">CREATE AN EMPTY FILE</a>
+        <a href="#remf">REMOVE A FILE</a>
+        <a href="#remfol">REMOVE A FOLDER</a>
+        <!-- add new option in the navigation bar here -->
+    </div>
+    <div id="main">
+
+        <!-- HEADER -->
+        <div class="header">
+            <div class="header_search">
+                <span style="font-size:30px;cursor:pointer;color: white;margin-left: 10px;" onclick="openNav()">&#9776;</span>
+                <img src="images/hadoop.png">
+                <h4>Hadoop Services</h4>
+
+                <form id="labnol" method="get" action="http://www.labnol.org">
+                    <div class="container1">
+                        <input type="text" name="task" id="transcript" placeholder="Say Something" />
+                        <img onclick="startDictation()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuNt4bosW8UsVUSfw8DVb-fv8tr4KFSzsYrw&usqp=CAU" /></div>
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- CONTAINER START-->
+
+    <div class="container" id="cs">
+        <center>
+            <h3>Configure System as :-</h3>
+            <form action="" method="post">
+                Namenode:- <input type="radio" name="node" value="1"> &emsp;&emsp; DataNode:- <input type="radio" name="node" value="2">
+                <br>
+                <input type="text" name="ip_master" placeholder="Enter Public IP of Master Node">
+                <input type="hidden" name="choice" value="1">
+                <br>
+                <input type="submit" />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+
+    <div class="container" id="cr">
+        <center>
+            <h3> Hadoop Cluster Report</h3>
+            <form action="" method="post">
+                <input type="hidden" name="choice" value="2">
+                <input type="submit" value="View" />
+            </form>
+            <form action="" method="post">
+                <input type="hidden" name="choice" value="4">
+                <input type="text" name="ip_master" placeholder="Enter Public IP of Master Node">
+                <input type="submit" value="WebUI -VIEW" />
+            </form>
+        </center>
+    </div>
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+    <div class="container" id="sf">
+        <center>
+            <h3>List all files & folders in a directory (default /)</h3>
+            <form action="" method="post">
+                <input type="hidden" name="choice" value="5" />
+                <input type="text" name="list_folder" placeholder="Enter Directory/Folder name (default /)" />
+                <input type="submit" value="See FileSystem" />
+            </form>
+        </center>
+    </div>
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+    <div class="container" id="rf">
+        <center>
+            <h3>Read a file</h3>
+            <form action="" method="post">
+                <input type="hidden" name="choice" value="6" />
+                <input type="text" name="read_folder" placeholder="Enter Folder name (default /)" />
+                <input type="text" name="read_file" placeholder="Enter the file name with extension" />
+                <input type="submit" value="See FileSystem" />
+            </form>
+        </center>
+    </div>
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+    <div class="container" id="cf">
+        <center>
+            <h3>Create a folder</h3>
+            <form action="" method="post">
+                <input type="hidden" name="choice" value="7" />
+                <input type="text" name="create_folder" placeholder="Enter Folder name" />
+                <input type="submit" value="Create Folder" />
+            </form>
+        </center>
+    </div>
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+    <div class="container" id="caf">
+        <center>
+            <h3>Create a file</h3>
+            <form action="" method="post">
+                <input type="hidden" name="choice" value="8" />
+                <input type="text" name="file_folder" placeholder="Enter the folder name (default /)" />
+                <input type="text" name="create_file" placeholder="Enter the file name with extension" />
+                <br>
+                <textarea name="file_text" placeholder="Enter the file text here...."> </textarea>
+                <br>
+                <input type="submit" value="Create File" />
+            </form>
+        </center>
+    </div>
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+    <div class="container" id="cae">
+        <center>
+            <h3>Create an Empty file</h3>
+            <form action="" method="post">
+                <input type="hidden" name="choice" value="9" />
+                <input type="text" name="file_folder_emp" placeholder="Enter the folder name (default /)" />
+                <input type="text" name="create_file_emp" placeholder="Enter the file name with extension" />
+                <input type="submit" value="Create empty File" />
+            </form>
+        </center>
+    </div>
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+    <div class="container" id="remf">
+        <center>
+            <h3>Remove a file</h3>
+            <form action="" method="post">
+                <input type="hidden" name="choice" value="10" />
+                <input type="text" name="remove_file_folder" placeholder="Enter the folder name (default /)" />
+                <input type="text" name="remove_file" placeholder="Enter the file name with extension" />
+                <input type="submit" value="Remove a File" />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+    <div class="container" id="remfol">
+        <center>
+            <h3>Remove a folder</h3>
+            <form action="" method="post">
+                <input type="hidden" name="choice" value="11" />
+                <input type="text" name="remove_folder" placeholder="Enter the folder name (default /)" />
+                <input type="submit" value="Remove a Folder" />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+
+
+    <!-- CONTAINER START-->
+
+    <!-- Add new container here -->
+
+
+    <!--CONTAINER END-->
+
+    <script src="list.js">
+    </script>
+</body>
+
+</html>

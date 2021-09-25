@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+<!-- NAVIGATION BAR -->
+
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#key">KEY PAIR</a>
+  <a href="#sg">SECURITY GROUP</a>
+  <a href="#i">INSTANCES</a>
+  <a href="#ir">INBOUND RULES</a>
+    <a href="#or">OUTBOUND RULES</a>
+     <a href="#ebs">EBS VOLUME</a>
+      <a href="#aebs">ATTACH EBS VOLUME</a>
+   <a href="#des">DESCRIBE INSTANCE</a>
+       <a href="#start">START INSTANCE</a>
+        <a href="#stop">STOP INSTANCE</a>
+          <a href="#s3">CONFIGURE S3 BUCKET</a>
+          <!-- add new option in the navigation bar here -->
+</div>
+
+
+
+<div id="main">
+  
+  <!-- HEADER -->
+
+
+  <div class="header" >
+ <div class = "header_search" >
+  <span style="font-size:30px;cursor:pointer;color: white;margin-left: 10px;" onclick="openNav()">&#9776;</span>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQmtazqUM85Owk4AatRqFi-ttfJMgjovFAMw&usqp=CAU">
+
+  <h4> Amazon WebServices</h4>
+    <form id="labnol" method="get" action="http://www.labnol.org">
+          <div class="container1">
+        <input type="text" name="task" id="transcript" placeholder="Say Something"/>
+        <img onclick="startDictation()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuNt4bosW8UsVUSfw8DVb-fv8tr4KFSzsYrw&usqp=CAU" /></div>
+    </form>
+
+ 
+ </div></div></div>
+
+   
+
+
+<!-- CONTAINER START-->
+
+<div class="container" id="key">
+<center>
+<h3>Create a Key-Pair</h3>
+<form action="" method = "post">
+<input type="text" name="new_kname" placeholder= "Enter the Key Name">
+<input type="hidden" name="choice" value="1">
+<input type="submit" value="Create Key-Pair"/>
+</form>
+</center>
+</div>
+
+<!--CONTAINER END-->
+
+
+<!-- CONTAINER START-->
+
+<div class="container" id="sg">
+<center>
+<h3>Create security group</h3>
+<form action="" method = "post">
+<input type="text" name="new_sgname" placeholder= "Enter the Security Group Name">
+<input type="text" name="descp" placeholder= "Enter the desription">
+<input type="hidden" name="choice" value="2">
+<input type="submit" value="Create SG"/>
+</form>
+</center>
+</div>
+<!--CONTAINER END-->
+
+
+<!-- CONTAINER START-->
+
+<div class="container" id="ir">
+<center>
+<h3>Add inbound rules to security group</h3>
+<form action="" method = "post">
+<input type="text" name="rule_sgname" placeholder= "Enter the SG name to add rules">
+<input type="text" name="protocol" placeholder= "Enter the Protocol">
+<input type="text" name="port" placeholder= "Enter the Port Number to allow">
+<input type="text" name="ip" placeholder= "Enter the IP Address to allow">
+<input type="hidden" name="choice" value="3">
+<input type="submit" value="Create SG Rules"/>
+</form>
+</center>
+</div>
+<!--CONTAINER END-->
+
+
+<!-- CONTAINER START-->
+<div class="container" id="i">
+<center>
+<h3>Launch an instance</h3>
+<form action="" method = "post">
+<select name="ami">
+<option value="">Select Image Id for instance launch</option>
+<option value="1">Amazon Linux 2 AMI (HVM), SSD Volume</option>
+<option value="2">Red Hat Enterprise Linux 8 (HVM), SSD Volume</option>
+<option value="3">Ubuntu Server 20.04 LTS (HVM), SSD Volume</option>
+<option value="4">Microsoft Windows Server 2019 Base</option>
+</select>
+<input type="text" name="osname" placeholder= "Give Name to new Instance">
+<input type="text" name="ec2_az" placeholder= "Give AZ to place Instance">
+<input type="text" name="itype" placeholder= "Enter the Instance type (default t2.micro)">
+<input type="text" name="ec2_kname" placeholder= "Provide Key-Pair to new Instance">
+<input type="text" name="ec2_sgname" placeholder= "Provide Security Group to new Instance">
+<input type="hidden" name="choice" value="4">
+<input type="submit"  value="Launch Instance"/>
+</form>
+</center>
+</div>
+<!--CONTAINER END-->
+
+
+<!-- CONTAINER START-->
+<div class="container" id="ebs">
+<center>
+<h3>Create an EBS Volume</h3>
+<form action="" method = "post">
+<input type="text" name="vol_az" placeholder= "Provide AZ name, to create to new volume">
+<input type="text" name="size" placeholder= "Provide Size of the new Volume (K/M/G)">
+<input type="hidden" name="choice" value="5">
+<input type="submit"  value="Create Volume"/>
+</form>
+</center>
+</div>
+<!--CONTAINER END-->
+
+
+<!-- CONTAINER START-->
+<div class="container" id="aebs">
+<center>
+<h3>Attach EBS Volume to as Instance</h3>
+<form action="" method = "post">
+<input type="text" name="vid" placeholder= "Give Volume ID">
+<input type="text" name="iid" placeholder= "Give Instance ID">
+<input type="text" name="vol_name" placeholder= "Give name to Volume">
+<input type="hidden" name="choice" value="6">
+<input type="submit"  value="Attach Volume"/>
+</form>
+</center>
+  </div>
+  <!--CONTAINER END-->
+
+
+<!-- CONTAINER START-->
+  <div class="container" id="des">
+<center>
+<h3>Describe Instance</h3>
+<form action="" method = "post">
+  <input type="text" name="region" placeholder= "Give region">
+<input type="hidden" name="choice" value="7">
+<input type="submit"  value="Describe"/>
+</form>
+</center>
+</div>
+<!--CONTAINER END-->
+
+
+<!-- CONTAINER START-->
+<div class="container" id="start">
+<center>
+<h3>Start Instance</h3>
+<form action="" method = "post">
+<input type="text" name="inst_id" placeholder= "Give Instance ID">
+  <input type="text" name="region" placeholder= "Give region">
+<input type="hidden" name="choice" value="8">
+<input type="submit"  value="Start"/>
+</form>
+</center>
+</div>
+<!--CONTAINER END-->
+
+
+<!-- CONTAINER START-->
+<div class="container" id="stop">
+<center>
+<h3>Stop Instance</h3>
+<form action="" method = "post">
+  <input type="text" name="inst_id" placeholder= "Give Instance ID">
+  <input type="text" name="region" placeholder= "Give region">
+<input type="hidden" name="choice" value="9">
+<input type="submit"  value="Stop"/>
+</form>
+</center>
+</div>
+<!--CONTAINER END-->
+
+
+<!-- CONTAINER START-->
+<div class="container" id="s3">
+<center>
+<h3>Configure s3 Bucket</h3>
+<form action="" method = "post">
+  <input type="text" name="bucket_name" placeholder= "Give Bucket name">
+  <input type="text" name="region" placeholder= "Give region">
+<input type="hidden" name="choice" value="10">
+<input type="submit"  value="Configure"/>
+</form>
+</center>
+</div>
+
+<!--CONTAINER END-->
+
+
+
+
+<!-- CONTAINER START-->
+
+<!-- Add new container here -->
+
+
+<!--CONTAINER END-->
+
+
+
+<script src="list.js">
+
+</script>
+   
+</body>
+</html> 

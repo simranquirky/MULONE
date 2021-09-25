@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!-- NAVIGATION BAR -->
+
+
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#cl">CHECK LOGS</a>
+        <a href="#cs">CHECK STATUS</a>
+        <a href="#c">COMMIT</a>
+        <a href="#lb">LIST OF BRANCHES</a>
+        <a href="#mv">MOVE TO ANOTHER BRANCHE</a>
+        <a href="#mrg">MERGE</a>
+        <a href="#st">SET TRACKER</a>
+        <a href="#push">PUSH</a>
+        <a href="#pull">PULL</a>
+        <a href="#clone">CLONE</a>
+        <!-- add new option in the navigation bar here -->
+    </div>
+    <div id="main">
+
+        <!-- HEADER -->
+
+
+        <div class="header">
+            <div class="header_search">
+                <span style="font-size:30px;cursor:pointer;color: white;margin-left: 10px;" onclick="openNav()">&#9776;</span>
+                <img src="images/git-hub.png">
+                <h4> Git Services</h4>
+
+                <form id="labnol" method="get" action="http://www.labnol.org">
+                    <div class="container1">
+                        <input type="text" name="task" id="transcript" placeholder="Say Something" />
+                        <img onclick="startDictation()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuNt4bosW8UsVUSfw8DVb-fv8tr4KFSzsYrw&usqp=CAU" /></div>
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- CONTAINER START-->
+
+    <div class="container" id="cl">
+
+        <center>
+            <h3>Check the list of backups</h3>
+            <form action="" method="post">
+                <input type="hidden" name="choice" value="1">
+                <input type="submit" value="Check logs" />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+    <div class="container" id="cs">
+        <center>
+
+            <h3>Check status</h3>
+            <form action="" method="post">
+                <input type="hidden" name="choice" value="2">
+                <input type="submit" value="Check" />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+    <div class="container" id="c">
+        <center>
+            <h3>Commit any new file or changes</h3>
+            <form action="" method="post">
+                <input type="text" name="file_name" placeholder="Enter the name of the file to commit">
+                <input type="text" name="comment" placeholder="Enter any comments to add">
+                <input type="hidden" name="choice" value="3">
+                <input type="submit" value="Commit" />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+    <div class="container" id="lb">
+        <center>
+            <h3>List of branches</h3>
+            <form action="" method="post">
+                <input type="hidden" name="choice" value="4">
+                <input type="submit" value="View " />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+    <div class="container" id="mv">
+        <center>
+            <h3>Move to another branch</h3>
+            <form action="" method="post">
+                <input type="text" name="branch_name" placeholder="Name of the branch you want to move to">
+                <input type="hidden" name="choice" value="5">
+                <input type="submit" value="Move" />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+    <div class="container" id="mrg">
+        <center>
+            <h3>Merge action</h3>
+            <form action="" method="post">
+                <input type="text" name="branch_merge" placeholder="Branch to be merged">
+                <input type="hidden" name="choice" value="6">
+                <input type="submit" value="Merge" />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+    <div class="container" id="st">
+        <center>
+            <h3>Set a Tracker</h3>
+            <form action="" method="post">
+                <input type="text" name="branch_track" placeholder="Branch to be tracked">
+                <input type="hidden" name="choice" value="7">
+                <input type="submit" value="Set" />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+    <div class="container" id="push">
+        <center>
+            <h3>Push repo</h3>
+            <form action="" method="post">
+                <input type="text" name="repo_name" placeholder="Remote Repository name">
+                <input type="text" name="branch_name" placeholder="Branch whose timeline you want to use">
+                <input type="hidden" name="choice" value="8">
+                <input type="submit" value="Push" />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+    <div class="container" id="pull">
+        <center>
+            <h3>Pull repo</h3>
+            <form action="" method="post">
+                <input type="text" name="repo_name" placeholder="Remote Repository name">
+                <input type="text" name="branch_name" placeholder="Branch whose timeline you want to use">
+                <input type="hidden" name="choice" value="9">
+                <input type="submit" value="Pull" />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+    <div class="container" id="clone">
+        <center>
+            <h3>Clone repo</h3>
+            <form action="" method="post">
+                <input type="text" name="url" placeholder="url of the repository you want to clone">
+                <input type="hidden" name="choice" value="8">
+                <input type="submit" value="Clone" />
+            </form>
+        </center>
+    </div>
+
+    <!--CONTAINER END-->
+
+
+    <!-- CONTAINER START-->
+
+    <!-- Add new container here -->
+
+
+    <!--CONTAINER END-->
+
+    <script src="list.js">
+    </script>
+
+</body>
+
+</html>
