@@ -1,13 +1,19 @@
-# hadoop features
+# MULONE
 
 
-CONFIGURE SYSTEM</br>
-CLUSTER REPORT</br>
-CLUSTER REPORT WEBUI VIEW</br>
-SEE FILESYSTEM</br>
-READ A FILE</br>
-CREATE A FOLDER</br>
-CREATE A FILE</br>
-CREATE AN EMPTY FILE</br>
-REMOVE A FILE</br>
-REMOVE A FOLDER</br>
+This project aims to integrate multiple technologies into one. 
+
+The technologies to be integrated are:
+- HADOOP
+- GIT
+- ANSIBLE
+- KUBERNETES
+- DOCKER
+- JENKINS
+- AWS
+- AZURE
+- GCP
+- LOGICAL VOLUME MANAGEMENT -LVM
+- LINUX
+- TERRAFORM 
+- OPENSHIFT
