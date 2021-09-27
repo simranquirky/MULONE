@@ -1,0 +1,116 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>Register Form</title>    
+        
+</head>    
+<body>    
+    <h2>Registeration Page</h2><br>    
+    <div class="signup">    
+    <form id="signup" method="get" action="login.php">    
+            
+        <input type="text" name="Fname" id="Fname" placeholder="First name" required>    
+        <br><br>    
+            
+        <input type="text" name="Lname" id="Lname" placeholder="Last name" required>    
+        <br><br>
+            
+        <input type="text" name="email" id="email" placeholder="Username" required>    
+        <br><br>
+            
+        <input type="Password" name="Pass" id="Pass" placeholder="Password" required>    
+        <br><br>   
+            
+        <input type="Password" name="Pass" id="Pass" placeholder="Re-type Password" required>    
+        <br><br>
+        <label><b>Gender     
+        </b>    
+        </label>
+        <input type="radio" name="radiogroup1" id="rd1">
+        <label for="rd1">Male</label>
+        <input type="radio" name="radiogroup1" id="rd2">
+        <label for="rd2">Female</label>
+        <br><br>
+        <input type="checkbox" id="cb1" required>
+        <label for="cb1">I agree with terms and conditions</label>
+        <br><br>
+        <input type="checkbox" id="cb2">
+        <label for="cb2">I want to receive the newsletter</label>
+        <br><br>
+        <input class="button" name="register" id="register" type="submit" value="Register" />    
+    </form>     
+</div>    
+</body>  
+<style>
+    body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:#6abadeba;  
+    font-family: 'Arial';  
+}  
+.signup{  
+        width: 382px;
+        height: 500px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: #9ce0d3;  
+        border-radius: 15px ;  
+          
+}  
+h2{  
+    text-align: center;  
+    color: #277582;  
+    padding: 20px;  
+}  
+label{  
+    color: #040a09;  
+    font-size: 17px;  
+}  
+#Fname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Lname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}
+#email{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+
+#register{
+    margin: 10px;
+        border: rgb(7, 13, 17) solid 2px;
+        background-color:#a0b1d1 ;
+        font-weight: bold;
+        border-radius: 10px;
+}
+body {
+      background-image: url('https://media.smallbiztrends.com/2018/09/shutterstock_1169830042-850x476.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+</style>  
+</html>

@@ -1,0 +1,150 @@
+.main{
+  
+  background-color: #89CFF0;
+  padding-left: 100px;
+  padding-bottom: 50px;
+}
+
+
+ .responsive {
+  padding: 0 6px;
+  
+  width: 400px;
+   height: 90%;
+  margin-top: 0.8%;
+  margin-left: 25px;
+  margin-right: 20px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 3px solid white;
+   box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+ z-index: 9;
+   position: relative;
+
+}
+.gallery{
+  margin-top: 12px;
+ background-color: white;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  min-width: 95%;
+  min-height: 95%;
+   border-radius: 15px;
+ 
+}
+ body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:#317873;  
+    font-family: 'Arial';  
+}  
+.login{  
+        
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 20px;  
+       
+          
+}  
+.checkbox{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  justify-content: left;
+}
+h2{  
+    text-align: center;  
+    color: #277582;  
+    padding: 10px;
+
+}  
+  
+
+span{  
+    color: grey;  
+    font-size: 17px;  
+}  
+
+.input {
+  
+  margin-bottom: 20px;
+  width: 80%;
+  border:none;
+  padding:10px 15px;
+  border-radius: 25px;
+   color: #595959;
+  background: white;
+
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #ffffff73;
+}
+
+.button{
+   box-shadow: 2px 2px 5px #babecc, -5px -5px 10px #ffffff73;
+    margin-top: 20px;
+  width: 80%;
+  border:none;
+  padding:10px 15px;
+  border-radius: 25px;
+   color: white;
+  background: #277582;
+}
+.foot-lnk{
+  text-align:center;
+  border-bottom: 1px solid grey;
+  margin-top: 20px;
+  padding-bottom:20px;
+  color: grey;
+}
+
+.signup{
+  margin-top: 10px;
+
+}
+a{
+  color:#277582;
+}
+
+.land >img{
+  width: 100%;
+  border-radius: 10px;
+
+}
+
+.land{
+  width: 20%;
+  z-index: 1;
+  width: 300px;
+  border: 2px solid white;
+  border-radius: 10px;
+ box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19); 
+ position: relative;
+ 
+}
+
+
+.portrait >img{
+  width: 100%;
+  border-radius: 10px;
+  
+
+}
+
+.portrait{
+  
+  width: 350px;
+  border: 2px solid white;
+  border-radius: 10px;
+ box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19); 
+ 
+   }
+
+.portrait, .responsive , .land{
+  display: inline-block;
+}
+
+ .left{
+  margin-right: -30px;
+ 
+}
