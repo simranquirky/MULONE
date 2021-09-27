@@ -33,11 +33,16 @@
    border-radius: 15px;
  
 }
+
+inline{
+  display: inline-block;
+
+ }
  body  
 {  
     margin: 0;  
     padding: 0;  
-    background-color:#317873;  
+     
     font-family: 'Arial';  
 }  
 .login{  
