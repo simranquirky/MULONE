@@ -15,13 +15,14 @@ HADOOP, GIT, ANSIBLE, KUBERNETES, DOCKER, JENKINS, AWS, AZURE, GCP, LOGICAL VOLU
 ## Installation
 
 STEP 1. Install git on your local system
+
 FOR WINDOWS:
-![GIT FOR WINDOWS](https://git-scm.com/download/win)
+<a href="https://git-scm.com/download/win">GIT FOR WINDOWS</a>
 
 FOR LINUX:
 
 ```bash
-$ yum install git
+$ yum install git -y
 ```
 OR
 ```bash
@@ -29,9 +30,19 @@ $ sudo apt-get install git-all
 ```
 You can refer to this for further help : https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
+
 STEP 2. Clone this repository in your local system
 ```bash
 $ git clone https://github.com/simranquirky/MULONE.git
+```
+STEP 3. Installing Apache server
+```bash
+$ sudo apt update
+$ sudo apt install apache2
+```
+You can install the same using yum command.
+```bash
+$ yum install httpd -y
 ```
 
 ## Want to Contribute to this repository?
