@@ -14,10 +14,24 @@ HADOOP, GIT, ANSIBLE, KUBERNETES, DOCKER, JENKINS, AWS, AZURE, GCP, LOGICAL VOLU
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+STEP 1. Install git on your local system
+FOR WINDOWS:
+![GIT FOR WINDOWS](https://git-scm.com/download/win)
+
+FOR LINUX:
 
 ```bash
-pip install foobar
+$ yum install git
+```
+OR
+```bash
+$ sudo apt-get install git-all
+```
+You can refer to this for further help : https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+STEP 2. Clone this repository in your local system
+```bash
+$ git clone https://github.com/simranquirky/MULONE.git
 ```
 
 ## Want to Contribute to this repository?
