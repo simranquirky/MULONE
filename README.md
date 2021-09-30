@@ -9,12 +9,14 @@ HADOOP, GIT, ANSIBLE, KUBERNETES, DOCKER, JENKINS, AWS, AZURE, GCP, LOGICAL VOLU
  [![Watchers](https://img.shields.io/github/watchers/simranquirky/MULONE?style=for-the-badge)](https://github.com/simranquirky/MULONE/watchers)
  ![Lines of code](https://img.shields.io/tokei/lines/github/simranquirky/MULONE?style=for-the-badge)
  <br><br>
-![MULONE](https://socialify.git.ci/simranquirky/MULONE/image?forks=1&issues=1&language=2&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Dark)
+<!-- ![MULONE](https://socialify.git.ci/simranquirky/MULONE/image?forks=1&issues=1&language=2&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Dark) -->
+
+TO UNDERSTAND THE PROJECT BETTER REFER [THIS PAGE]()
+
+![Screenshot (502)](https://user-images.githubusercontent.com/60690997/135391591-f3418094-de0e-4888-86af-b9e80275f44f.png)
 
 
 ## Installation
-![Screenshot (502)](https://user-images.githubusercontent.com/60690997/135391591-f3418094-de0e-4888-86af-b9e80275f44f.png)
-
 Please refer to the [Installing Mulone page](https://github.com/simranquirky/MULONE/wiki/Installing-Mulone) for full instructions. 
 
 ## Want to Contribute to this repository?
