@@ -4,20 +4,20 @@ The projects dervies its name from the idea of integrating <b>MUL</b>tiple techn
 This repository contains all the tech tools popular in the market. The technologies to be integrated are:
 HADOOP, GIT, ANSIBLE, KUBERNETES, DOCKER, JENKINS, AWS, AZURE, GCP, LOGICAL VOLUME MANAGEMENT -LVM, LINUX, TERRAFORM, OPENSHIFT <br><br>
  [![Followers](https://img.shields.io/github/followers/simranquirky?style=for-the-badge)](https://github.com/simrnquirky?tab=followers)
- ![GitHub forks](https://img.shields.io/github/forks/simranquirky/simranquirky.github.io?style=for-the-badge)
- ![GitHub Repo stars](https://img.shields.io/github/stars/simranquirky/simranquirky.github.io?style=for-the-badge)
- [![Watchers](https://img.shields.io/github/watchers/simranquirky/simranquirky.github.io?style=for-the-badge)](https://github.com/simranquirky/simranquirky.github.io/watchers)
- ![Lines of code](https://img.shields.io/tokei/lines/github/simranquirky/simranquirky.github.io?style=for-the-badge)
+ ![GitHub forks](https://img.shields.io/github/forks/simranquirky/MULONE?style=for-the-badge)
+ ![GitHub Repo stars](https://img.shields.io/github/stars/simranquirky/MULONE?style=for-the-badge)
+ [![Watchers](https://img.shields.io/github/watchers/simranquirky/MULONE?style=for-the-badge)](https://github.com/simranquirky/MULONE/watchers)
+ ![Lines of code](https://img.shields.io/tokei/lines/github/simranquirky/MULONE?style=for-the-badge)
  <br><br>
-![MULONE](https://socialify.git.ci/simranquirky/simranquirky.github.io/image?forks=1&issues=1&language=1&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Dark)
+![MULONE](https://socialify.git.ci/simranquirky/MULONE/image?forks=1&issues=1&language=1&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Dark)
 
 
 ## Installation
 
-
+Please refer to the [Installing Mulone page](https://github.com/simranquirky/MULONE/wiki/Installing-Mulone) for full instructions. 
 
 ## Want to Contribute to this repository?
-Head over to [Contributing Guidelines](https://github.com/smv1999/CompetitiveProgrammingQuestionBank/blob/master/CONTRIBUTING.md) to know more!
+Head over to [Contributing Guidelines](https://github.com//simranquirky/MULONE/blob/master/CONTRIBUTING.md) to know more!
 
 ## Project Admin
 
@@ -27,13 +27,13 @@ Head over to [Contributing Guidelines](https://github.com/smv1999/CompetitivePro
 
 *Need help? Feel free to contact me @ simrankumari1344@gmail.com*
 
-## Contributors ✨
+<!-- ## Contributors ✨
 
 Thanks goes to these **Wonderful People** 👨🏻‍💻:       
 
-<a href="https://github.com/simranquirky/simranquirky.github.io/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=simranquirky/simranquirky.github.io" />
-</a>
+<a href="https://github.com/simranquirky/MULONE/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=simranquirky/MULONE" />
+</a> -->
 
 ## Contributing
 
@@ -45,12 +45,12 @@ Please make sure to update tests as appropriate.
 Start contributing to see your profile in the contributors section.
 
 
-## Stargazers Over Time 
+<!-- ## Stargazers Over Time 
 
-[![Stargazers over time](https://starchart.cc/simranquirky/simranquirky.svg)](https://starchart.cc/simranquirky/simranquirky.github.io)
+[![Stargazers over time](https://starchart.cc/simranquirky/MULONE.svg)](https://starchart.cc/simranquirky/MULONE) -->
 
 ## LICENSE
-This project follows the [MIT License](https://github.com/smv1999/CompetitiveProgrammingQuestionBank/blob/master/LICENSE).
+This project follows the [MIT License](https://github.com/simranquirky/MULONE/blob/master/LICENSE).
 
 
 
