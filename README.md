@@ -9,10 +9,11 @@ HADOOP, GIT, ANSIBLE, KUBERNETES, DOCKER, JENKINS, AWS, AZURE, GCP, LOGICAL VOLU
  [![Watchers](https://img.shields.io/github/watchers/simranquirky/MULONE?style=for-the-badge)](https://github.com/simranquirky/MULONE/watchers)
  ![Lines of code](https://img.shields.io/tokei/lines/github/simranquirky/MULONE?style=for-the-badge)
  <br><br>
-![MULONE](https://socialify.git.ci/simranquirky/MULONE/image?forks=1&issues=1&language=1&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Dark)
+![MULONE](https://socialify.git.ci/simranquirky/MULONE/image?forks=1&issues=1&language=2&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Dark)
 
 
 ## Installation
+![Screenshot (502)](https://user-images.githubusercontent.com/60690997/135391591-f3418094-de0e-4888-86af-b9e80275f44f.png)
 
 Please refer to the [Installing Mulone page](https://github.com/simranquirky/MULONE/wiki/Installing-Mulone) for full instructions. 
 
@@ -23,7 +24,7 @@ Head over to [Contributing Guidelines](https://github.com//simranquirky/MULONE/b
 
 |                                     <a href="https://github.com/simranquirky"><img src="https://avatars.githubusercontent.com/u/60690997?s=400&u=9530610016fa2171d559af8bcdb3e9178bb7d308&v=4" width=150px height=150px /></a>                                      |
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                                                      **[SIMRAN KUMARI](https://www.linkedin.com/in/vaidhyanathansm/)**                                                                                    |
+|                                                                                      **[SIMRAN KUMARI](https://www.linkedin.com/in/simran-kumari-810212190/)**                                                                                    |
 
 *Need help? Feel free to contact me @ simrankumari1344@gmail.com*
 
