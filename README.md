@@ -30,13 +30,13 @@ Head over to [Contributing Guidelines](https://github.com//simranquirky/MULONE/b
 
 *Need help? Feel free to contact me @ simrankumari1344@gmail.com*
 
-<!-- ## Contributors ✨
+ ## Contributors ✨
 
 Thanks goes to these **Wonderful People** 👨🏻‍💻:       
 
 <a href="https://github.com/simranquirky/MULONE/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=simranquirky/MULONE" />
-</a> -->
+</a> 
 
 ## Contributing
 
