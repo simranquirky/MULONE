@@ -54,7 +54,7 @@ Thanks goes to these **Wonderful People** 👨🏻‍💻:
 [![Stargazers over time](https://starchart.cc/simranquirky/MULONE.svg)](https://starchart.cc/simranquirky/MULONE) -->
 
 ## LICENSE
-This project follows the [MIT License](https://github.com/simranquirky/MULONE/blob/master/LICENSE).
+This project follows the [MIT License](https://github.com/simranquirky/simranquirky.github.io/blob/main/LICENSE).
 
 
 
