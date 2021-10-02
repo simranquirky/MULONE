@@ -20,7 +20,12 @@ TO UNDERSTAND THE PROJECT BETTER REFER [THIS PAGE]()
 Please refer to the [Installing Mulone page](https://github.com/simranquirky/MULONE/wiki/Installing-Mulone) for full instructions. 
 
 ## Want to Contribute to this repository?
-Head over to [Contributing Guidelines](https://github.com//simranquirky/MULONE/blob/master/CONTRIBUTING.md) to know more!
+🚀 **Contributions** of any kind is welcome!
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Head over to [Contributing Guidelines](https://github.com/simranquirky/simranquirky.github.io/blob/main/CONTRIBUTING.md) to know more!
+Start contributing to see your profile in the contributors section.
 
 ## Project Admin
 
@@ -38,15 +43,10 @@ Thanks goes to these **Wonderful People** 👨🏻‍💻:
   <img src="https://contrib.rocks/image?repo=simranquirky/simranquirky.github.io" />
 </a> 
 
-## Contributing
 
-🚀 **Contributions** of any kind is welcome!
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-READ [CONTRIBUTION GUIDELINES]()
 
-Please make sure to update tests as appropriate.
-Start contributing to see your profile in the contributors section.
+
 
 
 <!-- ## Stargazers Over Time 
