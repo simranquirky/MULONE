@@ -43,6 +43,7 @@ Thanks goes to these **Wonderful People** 👨🏻‍💻:
 🚀 **Contributions** of any kind is welcome!
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+READ [CONTRIBUTION GUIDELINES]()
 
 Please make sure to update tests as appropriate.
 Start contributing to see your profile in the contributors section.
