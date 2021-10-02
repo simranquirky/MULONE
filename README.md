@@ -34,8 +34,8 @@ Head over to [Contributing Guidelines](https://github.com//simranquirky/MULONE/b
 
 Thanks goes to these **Wonderful People** 👨🏻‍💻:       
 
-<a href="https://github.com/simranquirky/MULONE/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=simranquirky/MULONE" />
+<a href="https://github.com/simranquirky/simranquirky.github.io/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=simranquirky//simranquirky.github.io" />
 </a> 
 
 ## Contributing
