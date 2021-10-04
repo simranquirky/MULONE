@@ -14,7 +14,7 @@ HADOOP, GIT, ANSIBLE, KUBERNETES, DOCKER, JENKINS, AWS, AZURE, GCP, LOGICAL VOLU
 
 The Home Page Of The Website !!!<br>
 
-![homepage](https://user-images.githubusercontent.com/77530270/135763120-10034f6f-7d55-4d08-90ca-9a0638c9a8aa.png)
+![homepage](https://user-images.githubusercontent.com/77530270/135835531-7d60460d-a391-40ac-8732-75eb662de9a5.jpg)
 
 TO UNDERSTAND THE PROJECT BETTER REFER [THIS PAGE](https://simranquirky.github.io/main.html)
 
