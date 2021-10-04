@@ -20,6 +20,8 @@
 section{
   display: block;
   overflow: hidden;  
+  margin: 0px;
+  padding: 0px;
 }
 
  .header {
@@ -32,11 +34,11 @@ section{
 h1{
 	position: relative;
 	font-family: 'RacingSansOne',sans-serif;
-	font-size:48px;
+	font-size:50px;
 	font-weight: 600; 
 	color:#fff;	
   align-content: center; 
-  padding: 10px;
+  padding: 30px;
   margin: 0%;
   text-align: center;
 }
@@ -48,10 +50,21 @@ h1 span{
 h2{
   
 	font-family: 'RacingSansOne',sans-serif;
-	font-size: 30px;
+	font-size: 40px;
 	font-weight: 600; 
 	color:#fff;	
   align-content: center; 
+  padding:30px;
+}
+
+form{
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  overflow: hidden;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
 }
 
 #main {
@@ -63,7 +76,12 @@ h2{
   font-size: 18px;
   width: 100%;
   border-bottom: 1px solid white;
+}
 
+.headers{
+  text-align: center;
+  width: 100%;
+  padding-top: 150px;
 }
 
 .btn {
@@ -75,21 +93,31 @@ h2{
   cursor: pointer; 
   float:left;
   padding: 10px 5px;
-  font-size: 20px;
-  min-width: 150px;
-  margin-right: 25px;
+  font-size: 30px;
+  min-width: 200px;
   margin-bottom: 20px;
   border: 2px solid white;
   box-shadow: 0 10px 25px rgba(0, 0, 0, .2);
   border-radius: 10px;
   overflow: hidden;
+  
 }
 
-.main1{
+.btn:hover{
+  background:#02c0fa;
+	border:2px solid #017fb5;
+}
+
+.container-fluid{
   display: block;
   overflow: hidden;
-  padding-left: 10%;
-  border-bottom: 1px solid white;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin: 0px;
+  text-align: center;
+  align-content: center;
+  justify-content: center
 }
 
 
