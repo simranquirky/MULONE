@@ -16,7 +16,7 @@ The Home Page Of The Website !!!<br>
 
 ![homepage](https://user-images.githubusercontent.com/77530270/135854107-ac9cb856-3ab3-4e9c-8b31-245ee17230ba.jpg)
 
-TO UNDERSTAND THE PROJECT BETTER REFER [THIS PAGE](https://simranquirky.github.io/main.html)
+TO UNDERSTAND THE PROJECT BETTER REFER [THIS PAGE](https://simranquirky.github.io/images/Untitled%20Diagram.drawio.svg)
 
 ![Screenshot (502)](https://user-images.githubusercontent.com/60690997/135391591-f3418094-de0e-4888-86af-b9e80275f44f.png)
 
